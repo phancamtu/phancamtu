@@ -1,4 +1,9 @@
-h1(
- color: 
- text-allign: 
- ) 
+h1 {
+ color: red;
+ text-allign: center;
+ font-size: 35pt;
+}
+.tieude {
+ color: darkblue;
+ fónt-size: 30pt;
+}
