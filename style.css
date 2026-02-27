@@ -14,18 +14,19 @@ h1 {
 }
 .header{
    flex: 15vh;
-   background-color: lightred;
+   background-color: lightblue;
 }
 .menu{
   flex: 5vh
-  background-color: darkblue;
+  background-color: black;
 }
 .content{
     flex: 70vh;
-    background-color: white:
+    background-color: white;
  }
 .footer{
  flex: 10vh;
+ background-color: lightblue;
 }
  
  
