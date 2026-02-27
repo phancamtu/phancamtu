@@ -18,7 +18,7 @@ h1 {
 }
 .menu{
    flex: 5%;
-   background-color: mint;
+   background-color: lightgreen;
    color: darkgray;
    display: flex;
 }
@@ -27,7 +27,7 @@ h1 {
 }
 .menu hover{
    background-color: lightgray;
-   color: mint;
+   color: lightgree;
 }
 .content{
    flex: 70%;
