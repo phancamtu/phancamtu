@@ -7,3 +7,25 @@ h1 {
  color: darkblue;
  fónt-size: 30pt;
 }
+.container{
+   display: flex;
+   flex-direction: colum;
+   height: 100vh;
+}
+.header{
+   flex: 15vh;
+   background-color: red;
+}
+.menu{
+  flex: 5vh
+  background-color: darkblue;
+}
+.content{
+    flex: 70vh;
+    background-color: white:
+ }
+.footer{
+ flex: 10vh;
+}
+ 
+ 
