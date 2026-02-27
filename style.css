@@ -17,7 +17,7 @@ h1 {
    background-color: lightblue;
 }
 .menu{
-  flex: 5vh
+  flex: 5vh;
   background-color: black;
 }
 .content{
