@@ -14,7 +14,7 @@ h1 {
 }
 .header{
    flex: 15vh;
-   background-color: red;
+   background-color: lightred;
 }
 .menu{
   flex: 5vh
