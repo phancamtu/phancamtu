@@ -17,12 +17,19 @@ h1 {
    background-color: lightblue;
 }
 .menu{
-  flex: 5%;
-  background-color: black;
+   flex: 5%;
+   background-color: black;
+   color: darkgray;
+   display: flex;
 }
+.menu a{
+
+.menu hover{
+   background-color: lightgray;
+   color: black;
 .content{
-    flex: 70%;
-    background-color: white;
+   flex: 70%;
+   background-color: white;
 }
 .content iframe {
     flex: 1;
@@ -31,8 +38,8 @@ h1 {
    height: 100%;
 }
 .footer{
- flex: 10%;
- background-color: lightblue;
+    flex: 10%;
+    background-color: lightblue;
 }
  
  
