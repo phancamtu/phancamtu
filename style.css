@@ -27,7 +27,7 @@ h1 {
 }
 .menu hover{
    background-color: lightgray;
-   color: lightgree;
+   color: white;
 }
 .content{
    flex: 70%;
