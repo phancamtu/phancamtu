@@ -25,9 +25,9 @@ h1 {
 .menu a{
     padding: 15px 20px;
 }
-.menu hover{
+.menu:hover{
    background-color: lightgray;
-   color: white;
+   color: black;
 }
 .content{
    flex: 70%;
