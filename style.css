@@ -19,7 +19,7 @@ h1 {
 }
 .menu{
    flex: 5%;
-   background-color: lightgreen;
+   background-color: darkseagreen;
    color: darkgray;
    display: flex;
 }
@@ -42,7 +42,7 @@ h1 {
 }
 .footer{
     flex: 10%;
-    background-color: lightblue;
+    background-color: steelblue;
 }
  
  
