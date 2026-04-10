@@ -1,1 +1,21 @@
-
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p id="kq"></p>
+    <script>
+      let dulieu=new URLSearchParams(window.location.search);
+      let ten=dulieu.get("txtTen");
+      let lop=dulieu.get("lop");
+      let bongro=dulieu.get("BongRo");
+      let bongchuyen=dulieu.get("BongChuyen");
+      let caulong=dulieu.get("Caulong");
+      document.getElementById("kq").innerHTML="Cảm ơn bạn " + ten +" đã đăng kí <br>"
+       + "Chúng tớ đã ghi nhận thông tin đăng kí của bạn! <br>";
+    </script>
+    <form action="hoithao.html">
+    <input type="submit" name="back" value="Quay lại >>">
+    </form>
+  </body>
+</html>
