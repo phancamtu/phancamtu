@@ -3,9 +3,16 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <h1>Cảm ơn bạn đã góp ý kiến</h1>
-    <p> Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới. </p><br>
-    <form action="Bai7-NV1.html">
-      <input type = "submit" name= "cmd" value= "Quay lại">
+    <p id="kq"></p>
+    <script>
+      let pp=new URLSearchParams(window.location.search) ;
+      let ten=pp.get("txtName") ;
+      let yk=pp.get("txtYk") ;
+      document. getElementById("kq"). innerHTML = "Cảm ơn bạn" + ten + "đã góp ý" <br> "Chúng tôi xin phép ghi nhận ý kiến của bạn như sau:" <br> yk;
+    </script>
+    <form action="B7_NV1.html">
+      <input type="submit" name="back" value="Quay lại">
     </form>
   </body>
+</html>
+   
